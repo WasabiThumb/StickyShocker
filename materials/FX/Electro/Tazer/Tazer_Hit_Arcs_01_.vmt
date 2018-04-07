@@ -1,0 +1,24 @@
+"UnlitGeneric"
+{
+	"$additive" 1
+	"$translucent" 1
+	"$vertexcolor" 1
+	"$vertexalpha" 1
+	"$decal" 1
+
+	"$alpha" 1	
+
+	"$basetexture" "FX\Electro\Tazer\Tazer_Hit_Arcs_01_"
+
+
+        "Proxies"
+        {
+                "AnimatedTexture"
+                {
+                         "animatedtexturevar" "$basetexture"
+                         "animatedtextureframenumvar" "$frame"
+                         "animatedtextureframerate" 30.00
+                }
+
+        }
+}
